@@ -3,9 +3,9 @@
     <v-responsive class="align-center text-center fill-height">
       <!-- <v-img height="300" src="@/assets/logo.svg" /> -->
 
-      <div class="text-body-2 font-weight-light mb-n1 text-secondary">Welcome to</div>
+      <div class="text-body-2 font-weight-light mb-n1">Welcome to</div>
 
-      <h1 class="text-h2 font-weight-bold text-secondary">Vuetify</h1>
+      <h1 @click="fetchApi" class="text-h2 font-weight-bold">Vuetify</h1>
 
       <div class="py-14" />
 
@@ -15,7 +15,6 @@
             href="https://vuetifyjs.com/components/all/"
             min-width="164"
             rel="noopener noreferrer"
-            class="text-secondary"
             target="_blank"
             variant="text"
           >
@@ -56,7 +55,6 @@
             rel="noopener noreferrer"
             target="_blank"
             variant="text"
-            class="text-secondary"
           >
             <v-icon
               icon="mdi-account-group"
@@ -68,10 +66,12 @@
           </v-btn>
         </v-col>
       </v-row>
+
     </v-responsive>
   </v-container>
 </template>
 
 <script setup>
   //
+
 </script>
